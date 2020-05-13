@@ -1,0 +1,6 @@
+Algorithm
+1. Break string into half (n/2)
+2. Compare the second half with the first half
+3. If all characters match sequentially, then simply append the new characters
+4. If not, then break the string at 1 element further to the left (n/2 + i)
+5. Repeat till resulting string is a palindrome
